@@ -1,0 +1,51 @@
+body {
+				font-family:Ubuntu;
+				background-color:orange;
+			}
+			.notice {
+				padding:10px;
+				width:auto;
+				color:white;
+				text-align:center;
+				border-radius:5px;
+			}
+			.notice.default		{
+				background-color:orange;
+			}
+			.notice.error {
+				background-color:red;
+			}
+			.notice.success			{
+				background-color:green;
+			}
+			.container {
+				background-color:#fff;
+				margin: 100px auto;
+				width:500px;
+				height:auto;
+				padding:10px;
+				border: 1px solid #ccc;
+				border-radius:5px;
+			}
+			.guest {
+				font-size:13px;
+			}
+			.guest.name {
+				font-size:18px;
+			}
+			.guest.date {
+				font-size:10px;
+				color:grey;
+			}
+			input {
+				width:100%;
+				border-radius:5px;
+				padding:10px 10px;
+			}
+			input[type='submit'] {
+				background-color:orange;
+				cursor:pointer;
+			}
+			textarea {
+				width:100%;
+			}
